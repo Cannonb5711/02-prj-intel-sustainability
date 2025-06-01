@@ -3,7 +3,7 @@
 /* Set the background color for the whole page to a light color */
 body {
   background-color: #f4f8fb; /* Light blue/gray */
-  color: #0071C5; /* Intel blue text for contrast */
+  color: #003366; /* Darker blue for better contrast */
   font-family: 'Segoe UI', 'Arial', sans-serif; /* Modern, clean font */
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /* Style the header section */
 header {
-  background-color: #0071C5; /* Intel blue background */
+  background-color: #003366; /* Darker blue for higher contrast */
   color: #fff; /* White text */
   padding: 30px 0;
   text-align: center;
@@ -32,7 +32,7 @@ header h1 {
 
 /* Subheading/description style */
 header p {
-  color: #e3f0fa; /* Very light blue for subheading */
+  color: #d0e6fa; /* Lighter blue for better contrast on dark background */
   font-size: 1.1em;
 }
 
@@ -132,7 +132,7 @@ section p {
 /* The card itself */
 .timeline-card {
   background-color: #fff;
-  color: #0071C5;
+  color: #003366; /* Darker blue for better contrast */
   border-radius: 14px; /* Slightly more rounded for a modern look */
   /* Strong drop shadow for a more realistic card look */
   box-shadow: 0 8px 32px rgba(0,0,0,0.22), 0 2px 8px rgba(0,0,0,0.13);
@@ -170,7 +170,7 @@ section p {
 .timeline-card h3 {
   margin: 18px 0 0 0;
   font-size: 1.18em;
-  color: #0071C5;
+  color: #003366; /* Darker blue for better contrast */
   padding: 0 16px;
   font-family: 'Segoe UI', 'Arial', sans-serif;
   letter-spacing: 0.02em;
@@ -195,7 +195,7 @@ section p {
 
 /* Card hover effect: turn card blue and text white */
 .timeline-card:hover {
-  background-color: #0071C5;
+  background-color: #003366; /* Darker blue for higher contrast */
   color: #fff;
   box-shadow: 0 12px 36px rgba(0,113,197,0.18), 0 2px 8px rgba(0,0,0,0.13);
 }
@@ -231,7 +231,7 @@ section p {
 /* The year below each card */
 .timeline-year {
   color: #fff;
-  background: #0071C5;
+  background: #003366; /* Darker blue for better contrast */
   border-radius: 12px;
   padding: 6px 20px;
   font-size: 1.08em;
@@ -254,7 +254,7 @@ section p {
 .timeline-card h3 {
   margin: 8px 0 10px 0;
   font-size: 1.1em;
-  color: #0071C5; /* Intel blue heading */
+  color: #003366; /* Darker blue for better contrast */
 }
 
 /* Card text style */
@@ -267,7 +267,7 @@ section p {
 /* Timeline instruction at the bottom (default: desktop) */
 body > p {
   text-align: center;
-  color: #0071C5;
+  color: #003366; /* Darker blue for better contrast */
   margin: 60px 0 40px 0;
   font-size: 1.1em;
   position: static;
@@ -278,7 +278,7 @@ body > p {
 /* Professional instruction message above the cards */
 .timeline-instruction-message {
   text-align: center;
-  color: #005fa3; /* Slightly darker Intel blue */
+  color: #003366; /* Darker blue for better contrast */
   font-size: 1.18em;
   font-weight: 500;
   margin: 32px 0 0 0; /* Space above the cards */
@@ -294,7 +294,7 @@ body > p {
   .timeline-instruction-mobile {
     display: block;
     text-align: center;
-    color: #005fa3;
+    color: #003366; /* Darker blue for better contrast */
     margin: 18px 0 10px 0;
     font-size: 1.15em;
     font-weight: bold;
